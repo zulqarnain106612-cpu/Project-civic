@@ -67,7 +67,10 @@
 #define HOST_LINE_CAPACITY        128u
 
 /* ── state ─────────────────────────────────────────────────────────── */
-__attribute__((section(".ccmram")))
+/* NOTE: CCM RAM (0x10000000) is NOT initialized by the startup file in this
+ * project, so static/zero-init variables must stay in regular SRAM.
+ * The queue is large (2048 × 24 = 49 KB) but STM32F407 has 128 KB SRAM
+ * plus 64 KB CCM — total 192 KB. With BSS at ~18 KB the queue fits fine. */
 static can_capture_queue_t capture_queue;
 static can_profiler_t      profiler;
 static volatile uint32_t   can_error_count;
