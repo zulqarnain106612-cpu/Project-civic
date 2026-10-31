@@ -1,0 +1,231 @@
+<svg viewBox="0 0 1400 980" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,monospace" font-size="9.5">
+<rect width="1400" height="980" fill="#0d1117"/>
+<text x="700" y="22" text-anchor="middle" fill="#c9d1d9" font-size="14" font-weight="bold" font-family="system-ui">Project Civic — Physical Pin Diagram</text>
+<text x="700" y="38" text-anchor="middle" fill="#8b949e" font-size="10" font-family="system-ui">STM32F407VGTx (100-pin LQFP)  |  TJA1051 (SO8)  |  ESP32 DevKit V1 (38-pin)</text>
+<g id="stm32">
+  <rect x="230" y="100" width="260" height="260" fill="#1c2128" stroke="#58a6ff" stroke-width="2" rx="4"/>
+  <text x="360" y="215" text-anchor="middle" fill="#58a6ff" font-size="13" font-weight="bold">STM32</text>
+  <text x="360" y="231" text-anchor="middle" fill="#58a6ff" font-size="11">F407VGTx</text>
+  <text x="360" y="246" text-anchor="middle" fill="#8b949e" font-size="9">100-pin LQFP</text>
+  <circle cx="230" cy="360" r="4" fill="#58a6ff"/>
+  <text x="216" y="363" text-anchor="end" fill="#58a6ff" font-size="8">pin1</text>
+  <!-- BOTTOM pins 1-25 -->
+  <line x1="235" y1="360" x2="235" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="235" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 235 385)">PE2</text>
+  <line x1="245" y1="360" x2="245" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="245" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 245 385)">PE3</text>
+  <line x1="256" y1="360" x2="256" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="256" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 256 385)">PE4</text>
+  <line x1="266" y1="360" x2="266" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="266" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 266 385)">PE5</text>
+  <line x1="276" y1="360" x2="276" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="276" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 276 385)">PE6</text>
+  <line x1="287" y1="360" x2="287" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="287" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 287 385)">VBAT</text>
+  <line x1="297" y1="360" x2="297" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="297" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 297 385)">PC13</text>
+  <line x1="307" y1="360" x2="307" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="307" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 307 385)">PC14</text>
+  <line x1="318" y1="360" x2="318" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="318" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 318 385)">PC15</text>
+  <line x1="328" y1="360" x2="328" y2="375" stroke="#444" stroke-width="1.2"/> <text x="328" y="385" text-anchor="middle" fill="#444" font-size="7.5" transform="rotate(-70 328 385)">VSS</text>
+  <line x1="338" y1="360" x2="338" y2="375" stroke="#444" stroke-width="1.2"/> <text x="338" y="385" text-anchor="middle" fill="#444" font-size="7.5" transform="rotate(-70 338 385)">VDD</text>
+  <line x1="349" y1="360" x2="349" y2="375" stroke="#ff9900" stroke-width="1.2"/> <text x="349" y="385" text-anchor="middle" fill="#ff9900" font-size="7.5" transform="rotate(-70 349 385)">VDDA</text>
+  <line x1="359" y1="360" x2="359" y2="375" stroke="#555" stroke-width="1.2"/> <text x="359" y="385" text-anchor="middle" fill="#555" font-size="7.5" transform="rotate(-70 359 385)">VSSA</text>
+  <line x1="369" y1="360" x2="369" y2="386" stroke="#f85149" stroke-width="2"/> <text x="369" y="396" text-anchor="middle" fill="#f85149" font-size="7.5" font-weight="bold" transform="rotate(-70 369 396)">NRST p14 STAR</text>
+  <line x1="380" y1="360" x2="380" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="380" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 380 385)">PA0</text>
+  <line x1="390" y1="360" x2="390" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="390" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 390 385)">PA1</text>
+  <line x1="400" y1="360" x2="400" y2="386" stroke="#56d364" stroke-width="2"/> <text x="400" y="396" text-anchor="middle" fill="#56d364" font-size="7.5" font-weight="bold" transform="rotate(-70 400 396)">PA2 USART2_TX p22 STAR</text>
+  <line x1="411" y1="360" x2="411" y2="386" stroke="#56d364" stroke-width="2"/> <text x="411" y="396" text-anchor="middle" fill="#56d364" font-size="7.5" font-weight="bold" transform="rotate(-70 411 396)">PA3 USART2_RX p23 STAR</text>
+  <line x1="421" y1="360" x2="421" y2="375" stroke="#444" stroke-width="1.2"/> <text x="421" y="385" text-anchor="middle" fill="#444" font-size="7.5" transform="rotate(-70 421 385)">VDD</text>
+  <line x1="431" y1="360" x2="431" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="431" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 431 385)">PA4</text>
+  <line x1="442" y1="360" x2="442" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="442" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 442 385)">PA5</text>
+  <line x1="452" y1="360" x2="452" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="452" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 452 385)">PA6</text>
+  <line x1="462" y1="360" x2="462" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="462" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 462 385)">PA7</text>
+  <line x1="473" y1="360" x2="473" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="473" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 473 385)">PC4</text>
+  <line x1="483" y1="360" x2="483" y2="375" stroke="#30363d" stroke-width="1.2"/> <text x="483" y="385" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 483 385)">PC5</text>
+  <!-- RIGHT pins 26-50 -->
+  <line x1="490" y1="350" x2="505" y2="350" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="353" fill="#6e7681" font-size="7.5">PB0</text>
+  <line x1="490" y1="340" x2="505" y2="340" stroke="#444" stroke-width="1.2"/> <text x="507" y="343" fill="#444" font-size="7.5">VSS</text>
+  <line x1="490" y1="330" x2="505" y2="330" stroke="#444" stroke-width="1.2"/> <text x="507" y="333" fill="#444" font-size="7.5">VDD</text>
+  <line x1="490" y1="320" x2="505" y2="320" stroke="#e3b341" stroke-width="1.5"/> <text x="507" y="323" fill="#e3b341" font-size="7.5" font-weight="bold">PB2/BOOT1 to GND</text>
+  <line x1="490" y1="310" x2="505" y2="310" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="313" fill="#6e7681" font-size="7.5">PE7</text>
+  <line x1="490" y1="300" x2="505" y2="300" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="303" fill="#6e7681" font-size="7.5">PE8</text>
+  <line x1="490" y1="290" x2="505" y2="290" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="293" fill="#6e7681" font-size="7.5">PE9</text>
+  <line x1="490" y1="280" x2="505" y2="280" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="283" fill="#6e7681" font-size="7.5">PE10</text>
+  <line x1="490" y1="270" x2="505" y2="270" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="273" fill="#6e7681" font-size="7.5">PE11</text>
+  <line x1="490" y1="260" x2="505" y2="260" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="263" fill="#6e7681" font-size="7.5">PE12</text>
+  <line x1="490" y1="250" x2="505" y2="250" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="253" fill="#6e7681" font-size="7.5">PE13</text>
+  <line x1="490" y1="240" x2="505" y2="240" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="243" fill="#6e7681" font-size="7.5">PE14</text>
+  <line x1="490" y1="230" x2="505" y2="230" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="233" fill="#6e7681" font-size="7.5">PE15</text>
+  <line x1="490" y1="220" x2="505" y2="220" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="223" fill="#6e7681" font-size="7.5">PB10</text>
+  <line x1="490" y1="210" x2="505" y2="210" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="213" fill="#6e7681" font-size="7.5">PB11</text>
+  <line x1="490" y1="200" x2="505" y2="200" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="203" fill="#6e7681" font-size="7.5">VCAP1</text>
+  <line x1="490" y1="190" x2="505" y2="190" stroke="#444" stroke-width="1.2"/> <text x="507" y="193" fill="#444" font-size="7.5">VDD</text>
+  <line x1="490" y1="180" x2="505" y2="180" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="183" fill="#6e7681" font-size="7.5">PB12</text>
+  <line x1="490" y1="170" x2="505" y2="170" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="173" fill="#6e7681" font-size="7.5">PB13</text>
+  <line x1="490" y1="160" x2="505" y2="160" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="163" fill="#6e7681" font-size="7.5">PB14</text>
+  <line x1="490" y1="150" x2="505" y2="150" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="153" fill="#6e7681" font-size="7.5">PB15</text>
+  <line x1="490" y1="140" x2="505" y2="140" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="143" fill="#6e7681" font-size="7.5">PD8</text>
+  <line x1="490" y1="130" x2="505" y2="130" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="133" fill="#6e7681" font-size="7.5">PD9</text>
+  <line x1="490" y1="120" x2="505" y2="120" stroke="#444" stroke-width="1.2"/> <text x="507" y="123" fill="#444" font-size="7.5">VSS</text>
+  <line x1="490" y1="110" x2="505" y2="110" stroke="#30363d" stroke-width="1.2"/> <text x="507" y="113" fill="#6e7681" font-size="7.5">PD10</text>
+  <!-- TOP pins 51-75 -->
+  <line x1="483" y1="100" x2="483" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="483" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 483 80)">PD11</text>
+  <line x1="473" y1="100" x2="473" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="473" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 473 80)">PD12</text>
+  <line x1="462" y1="100" x2="462" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="462" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 462 80)">PD13</text>
+  <line x1="452" y1="100" x2="452" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="452" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 452 80)">PD14</text>
+  <line x1="442" y1="100" x2="442" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="442" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 442 80)">PD15</text>
+  <line x1="431" y1="100" x2="431" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="431" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 431 80)">PC6</text>
+  <line x1="421" y1="100" x2="421" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="421" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 421 80)">PC7</text>
+  <line x1="411" y1="100" x2="411" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="411" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 411 80)">PC8</text>
+  <line x1="400" y1="100" x2="400" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="400" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 400 80)">PC9</text>
+  <line x1="390" y1="100" x2="390" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="390" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 390 80)">PA8</text>
+  <line x1="380" y1="100" x2="380" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="380" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 380 80)">PA9</text>
+  <line x1="369" y1="100" x2="369" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="369" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 369 80)">PA10</text>
+  <line x1="359" y1="100" x2="359" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="359" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 359 80)">PA11</text>
+  <line x1="349" y1="100" x2="349" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="349" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 349 80)">PA12</text>
+  <line x1="338" y1="100" x2="338" y2="82" stroke="#8b949e" stroke-width="1.5"/> <text x="338" y="78" text-anchor="middle" fill="#8b949e" font-size="7.5" transform="rotate(-70 338 78)">PA13/SWDIO</text>
+  <line x1="328" y1="100" x2="328" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="328" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 328 80)">VCAP2</text>
+  <line x1="318" y1="100" x2="318" y2="85" stroke="#444" stroke-width="1.2"/> <text x="318" y="80" text-anchor="middle" fill="#444" font-size="7.5" transform="rotate(-70 318 80)">VSS</text>
+  <line x1="307" y1="100" x2="307" y2="85" stroke="#444" stroke-width="1.2"/> <text x="307" y="80" text-anchor="middle" fill="#444" font-size="7.5" transform="rotate(-70 307 80)">VDD</text>
+  <line x1="297" y1="100" x2="297" y2="82" stroke="#8b949e" stroke-width="1.5"/> <text x="297" y="78" text-anchor="middle" fill="#8b949e" font-size="7.5" transform="rotate(-70 297 78)">PA14/SWCLK</text>
+  <line x1="287" y1="100" x2="287" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="287" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 287 80)">PA15</text>
+  <line x1="276" y1="100" x2="276" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="276" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 276 80)">PC10</text>
+  <line x1="266" y1="100" x2="266" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="266" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 266 80)">PC11</text>
+  <line x1="256" y1="100" x2="256" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="256" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 256 80)">PC12</text>
+  <line x1="245" y1="100" x2="245" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="245" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 245 80)">PD0</text>
+  <line x1="235" y1="100" x2="235" y2="85" stroke="#30363d" stroke-width="1.2"/> <text x="235" y="80" text-anchor="middle" fill="#6e7681" font-size="7.5" transform="rotate(-70 235 80)">PD1</text>
+  <!-- LEFT pins 76-100 -->
+  <line x1="230" y1="110" x2="215" y2="110" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="113" text-anchor="end" fill="#6e7681" font-size="7.5">PD2</text>
+  <line x1="230" y1="120" x2="215" y2="120" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="123" text-anchor="end" fill="#6e7681" font-size="7.5">PD3</text>
+  <line x1="230" y1="130" x2="215" y2="130" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="133" text-anchor="end" fill="#6e7681" font-size="7.5">PD4</text>
+  <line x1="230" y1="140" x2="215" y2="140" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="143" text-anchor="end" fill="#6e7681" font-size="7.5">PD5</text>
+  <line x1="230" y1="150" x2="215" y2="150" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="153" text-anchor="end" fill="#6e7681" font-size="7.5">PDR_ON</text>
+  <line x1="230" y1="160" x2="215" y2="160" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="163" text-anchor="end" fill="#6e7681" font-size="7.5">PD6</text>
+  <line x1="230" y1="170" x2="215" y2="170" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="173" text-anchor="end" fill="#6e7681" font-size="7.5">PD7</text>
+  <line x1="230" y1="180" x2="215" y2="180" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="183" text-anchor="end" fill="#6e7681" font-size="7.5">PG9</text>
+  <line x1="230" y1="190" x2="215" y2="190" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="193" text-anchor="end" fill="#6e7681" font-size="7.5">PG10</text>
+  <line x1="230" y1="200" x2="215" y2="200" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="203" text-anchor="end" fill="#6e7681" font-size="7.5">PG11</text>
+  <line x1="230" y1="210" x2="215" y2="210" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="213" text-anchor="end" fill="#6e7681" font-size="7.5">PG12</text>
+  <line x1="230" y1="220" x2="215" y2="220" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="223" text-anchor="end" fill="#6e7681" font-size="7.5">PG13</text>
+  <line x1="230" y1="230" x2="215" y2="230" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="233" text-anchor="end" fill="#6e7681" font-size="7.5">PG14</text>
+  <line x1="230" y1="240" x2="215" y2="240" stroke="#444" stroke-width="1.2"/> <text x="213" y="243" text-anchor="end" fill="#444" font-size="7.5">VSS</text>
+  <line x1="230" y1="250" x2="215" y2="250" stroke="#444" stroke-width="1.2"/> <text x="213" y="253" text-anchor="end" fill="#444" font-size="7.5">VDD</text>
+  <line x1="230" y1="260" x2="215" y2="260" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="263" text-anchor="end" fill="#6e7681" font-size="7.5">PG15</text>
+  <line x1="230" y1="270" x2="215" y2="270" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="273" text-anchor="end" fill="#6e7681" font-size="7.5">PB3</text>
+  <line x1="230" y1="280" x2="215" y2="280" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="283" text-anchor="end" fill="#6e7681" font-size="7.5">PB4</text>
+  <line x1="230" y1="290" x2="212" y2="290" stroke="#e3b341" stroke-width="2"/> <text x="210" y="293" text-anchor="end" fill="#e3b341" font-size="7.5" font-weight="bold">BOOT0 p94 STAR</text>
+  <line x1="230" y1="300" x2="212" y2="300" stroke="#79c0ff" stroke-width="2"/> <text x="210" y="303" text-anchor="end" fill="#79c0ff" font-size="7.5" font-weight="bold">PB8/CAN1_RX p95 STAR</text>
+  <line x1="230" y1="310" x2="212" y2="310" stroke="#79c0ff" stroke-width="2"/> <text x="210" y="313" text-anchor="end" fill="#79c0ff" font-size="7.5" font-weight="bold">PB9/CAN1_TX p96 STAR</text>
+  <line x1="230" y1="320" x2="215" y2="320" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="323" text-anchor="end" fill="#6e7681" font-size="7.5">PE0</text>
+  <line x1="230" y1="330" x2="215" y2="330" stroke="#30363d" stroke-width="1.2"/> <text x="213" y="333" text-anchor="end" fill="#6e7681" font-size="7.5">PE1</text>
+  <line x1="230" y1="340" x2="215" y2="340" stroke="#444" stroke-width="1.2"/> <text x="213" y="343" text-anchor="end" fill="#444" font-size="7.5">VSS</text>
+  <line x1="230" y1="350" x2="215" y2="350" stroke="#444" stroke-width="1.2"/> <text x="213" y="353" text-anchor="end" fill="#444" font-size="7.5">VDD</text>
+</g>
+<!-- TJA1051 -->
+<g id="tja">
+  <rect x="640" y="190" width="100" height="130" fill="#1c2128" stroke="#e3b341" stroke-width="2" rx="4"/>
+  <text x="690" y="244" text-anchor="middle" fill="#e3b341" font-size="11" font-weight="bold">TJA1051</text>
+  <text x="690" y="256" text-anchor="middle" fill="#8b949e" font-size="8">NXP SO8</text>
+  <path d="M640 200 Q648 194 656 200" fill="none" stroke="#e3b341" stroke-width="1"/>
+  <line x1="640" y1="210" x2="622" y2="210" stroke="#79c0ff" stroke-width="2"/> <text x="620" y="213" text-anchor="end" fill="#79c0ff" font-size="8" font-weight="bold">1 TXD</text>
+  <line x1="640" y1="230" x2="622" y2="230" stroke="#555" stroke-width="2"/> <text x="620" y="233" text-anchor="end" fill="#888" font-size="8">2 GND</text>
+  <line x1="640" y1="250" x2="622" y2="250" stroke="#ff9900" stroke-width="2"/> <text x="620" y="253" text-anchor="end" fill="#ff9900" font-size="8">3 VCC</text>
+  <line x1="640" y1="270" x2="622" y2="270" stroke="#79c0ff" stroke-width="2"/> <text x="620" y="273" text-anchor="end" fill="#79c0ff" font-size="8" font-weight="bold">4 RXD</text>
+  <line x1="740" y1="210" x2="758" y2="210" stroke="#ff9900" stroke-width="1.5"/> <text x="760" y="213" fill="#ff9900" font-size="8">5 VIO (3.3V, TJA1051/3 only)</text>
+  <line x1="740" y1="235" x2="758" y2="235" stroke="#555" stroke-width="2"/> <text x="760" y="238" fill="#f85149" font-size="8" font-weight="bold">6 STB to GND always</text>
+  <line x1="740" y1="258" x2="758" y2="258" stroke="#f85149" stroke-width="2.5"/> <text x="760" y="261" fill="#f85149" font-size="9" font-weight="bold">7 CANH to OBD-II pin 6</text>
+  <line x1="740" y1="278" x2="758" y2="278" stroke="#f85149" stroke-width="2.5"/> <text x="760" y="281" fill="#f85149" font-size="9" font-weight="bold">8 CANL to OBD-II pin 14</text>
+  <text x="690" y="308" text-anchor="middle" fill="#8b949e" font-size="7">100nF cap VCC(3)-GND(2)</text>
+</g>
+<!-- ESP32 DevKit V1 -->
+<g id="esp32">
+  <rect x="1010" y="70" width="130" height="760" fill="#1c2128" stroke="#56d364" stroke-width="2" rx="6"/>
+  <text x="1075" y="90" text-anchor="middle" fill="#56d364" font-size="11" font-weight="bold">ESP32</text>
+  <text x="1075" y="103" text-anchor="middle" fill="#8b949e" font-size="8">DevKit V1</text>
+  <text x="1075" y="114" text-anchor="middle" fill="#8b949e" font-size="7">38-pin</text>
+  <rect x="1040" y="68" width="70" height="8" fill="#0d1117" stroke="#56d364" stroke-width="1" rx="2"/>
+  <text x="1075" y="75" text-anchor="middle" fill="#8b949e" font-size="6">USB</text>
+  <!-- LEFT -->
+  <line x1="1010" y1="135" x2="992" y2="135" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="138" text-anchor="end" fill="#6e7681" font-size="8">EN</text>
+  <line x1="1010" y1="152" x2="992" y2="152" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="155" text-anchor="end" fill="#6e7681" font-size="8">GPIO36</text>
+  <line x1="1010" y1="169" x2="992" y2="169" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="172" text-anchor="end" fill="#6e7681" font-size="8">GPIO39</text>
+  <line x1="1010" y1="186" x2="992" y2="186" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="189" text-anchor="end" fill="#6e7681" font-size="8">GPIO34</text>
+  <line x1="1010" y1="203" x2="992" y2="203" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="206" text-anchor="end" fill="#6e7681" font-size="8">GPIO35</text>
+  <line x1="1010" y1="220" x2="992" y2="220" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="223" text-anchor="end" fill="#6e7681" font-size="8">GPIO32</text>
+  <line x1="1010" y1="237" x2="992" y2="237" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="240" text-anchor="end" fill="#6e7681" font-size="8">GPIO33</text>
+  <line x1="1010" y1="254" x2="992" y2="254" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="257" text-anchor="end" fill="#6e7681" font-size="8">GPIO25</text>
+  <line x1="1010" y1="271" x2="992" y2="271" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="274" text-anchor="end" fill="#6e7681" font-size="8">GPIO26</text>
+  <line x1="1010" y1="288" x2="992" y2="288" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="291" text-anchor="end" fill="#6e7681" font-size="8">GPIO27</text>
+  <line x1="1010" y1="305" x2="992" y2="305" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="308" text-anchor="end" fill="#6e7681" font-size="8">GPIO14</text>
+  <line x1="1010" y1="322" x2="992" y2="322" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="325" text-anchor="end" fill="#6e7681" font-size="8">GPIO12</text>
+  <line x1="1010" y1="339" x2="992" y2="339" stroke="#555" stroke-width="2"/>     <text x="990" y="342" text-anchor="end" fill="#888" font-size="8">GND</text>
+  <line x1="1010" y1="356" x2="992" y2="356" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="359" text-anchor="end" fill="#6e7681" font-size="8">GPIO13</text>
+  <line x1="1010" y1="373" x2="992" y2="373" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="376" text-anchor="end" fill="#6e7681" font-size="8">SD2</text>
+  <line x1="1010" y1="390" x2="992" y2="390" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="393" text-anchor="end" fill="#6e7681" font-size="8">SD3</text>
+  <line x1="1010" y1="407" x2="992" y2="407" stroke="#30363d" stroke-width="1.2"/> <text x="990" y="410" text-anchor="end" fill="#6e7681" font-size="8">CMD</text>
+  <line x1="1010" y1="424" x2="992" y2="424" stroke="#ff9900" stroke-width="2"/>   <text x="990" y="427" text-anchor="end" fill="#ff9900" font-size="8">VIN 5V input</text>
+  <line x1="1010" y1="441" x2="992" y2="441" stroke="#555" stroke-width="2"/>      <text x="990" y="444" text-anchor="end" fill="#888" font-size="8">GND</text>
+  <!-- RIGHT -->
+  <line x1="1140" y1="135" x2="1158" y2="135" stroke="#ff9900" stroke-width="2"/>   <text x="1160" y="138" fill="#ff9900" font-size="8">3V3 out to STM32 VDD</text>
+  <line x1="1140" y1="152" x2="1158" y2="152" stroke="#555" stroke-width="2"/>     <text x="1160" y="155" fill="#888" font-size="8">GND</text>
+  <line x1="1140" y1="169" x2="1158" y2="169" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="172" fill="#6e7681" font-size="8">GPIO15</text>
+  <line x1="1140" y1="186" x2="1158" y2="186" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="189" fill="#6e7681" font-size="8">GPIO2</text>
+  <line x1="1140" y1="203" x2="1158" y2="203" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="206" fill="#6e7681" font-size="8">GPIO0</text>
+  <line x1="1140" y1="220" x2="1158" y2="220" stroke="#e3b341" stroke-width="2"/> <text x="1160" y="223" fill="#e3b341" font-size="8" font-weight="bold">GPIO4 to BOOT0 STAR</text>
+  <line x1="1140" y1="237" x2="1158" y2="237" stroke="#56d364" stroke-width="2"/> <text x="1160" y="240" fill="#56d364" font-size="8" font-weight="bold">GPIO16 RX2 from PA2 STAR</text>
+  <line x1="1140" y1="254" x2="1158" y2="254" stroke="#56d364" stroke-width="2"/> <text x="1160" y="257" fill="#56d364" font-size="8" font-weight="bold">GPIO17 TX2 to PA3 STAR</text>
+  <line x1="1140" y1="271" x2="1158" y2="271" stroke="#f85149" stroke-width="2"/>  <text x="1160" y="274" fill="#f85149" font-size="8" font-weight="bold">GPIO5 to NRST STAR 100R</text>
+  <line x1="1140" y1="288" x2="1158" y2="288" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="291" fill="#6e7681" font-size="8">GPIO18</text>
+  <line x1="1140" y1="305" x2="1158" y2="305" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="308" fill="#6e7681" font-size="8">GPIO19</text>
+  <line x1="1140" y1="322" x2="1158" y2="322" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="325" fill="#6e7681" font-size="8">GPIO21</text>
+  <line x1="1140" y1="339" x2="1158" y2="339" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="342" fill="#6e7681" font-size="8">GPIO3 RX0</text>
+  <line x1="1140" y1="356" x2="1158" y2="356" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="359" fill="#6e7681" font-size="8">GPIO1 TX0</text>
+  <line x1="1140" y1="373" x2="1158" y2="373" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="376" fill="#6e7681" font-size="8">GPIO22</text>
+  <line x1="1140" y1="390" x2="1158" y2="390" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="393" fill="#6e7681" font-size="8">GPIO23</text>
+  <line x1="1140" y1="407" x2="1158" y2="407" stroke="#555" stroke-width="2"/>     <text x="1160" y="410" fill="#888" font-size="8">GND</text>
+  <line x1="1140" y1="424" x2="1158" y2="424" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="427" fill="#6e7681" font-size="8">SD0</text>
+  <line x1="1140" y1="441" x2="1158" y2="441" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="444" fill="#6e7681" font-size="8">CLK</text>
+  <line x1="1140" y1="458" x2="1158" y2="458" stroke="#30363d" stroke-width="1.2"/> <text x="1160" y="461" fill="#6e7681" font-size="8">SD1</text>
+</g>
+<!-- Wires -->
+<path d="M400 386 L400 470 L960 470 L960 237 L1140 237" fill="none" stroke="#56d364" stroke-width="1.8" stroke-dasharray="5,3"/>
+<text x="700" y="465" text-anchor="middle" fill="#56d364" font-size="8">PA2 USART2_TX to GPIO16/RX2  115200 8N1</text>
+<path d="M411 386 L411 480 L955 480 L955 254 L1140 254" fill="none" stroke="#56d364" stroke-width="1.8" stroke-dasharray="5,3"/>
+<text x="700" y="476" text-anchor="middle" fill="#56d364" font-size="8">PA3 USART2_RX from GPIO17/TX2</text>
+<path d="M212 300 L180 300 L180 510 L600 510 L600 270 L622 270" fill="none" stroke="#79c0ff" stroke-width="1.8"/>
+<text x="380" y="506" text-anchor="middle" fill="#79c0ff" font-size="8">PB8 CAN1_RX from TJA1051 RXD pin4</text>
+<path d="M212 310 L170 310 L170 520 L590 520 L590 210 L622 210" fill="none" stroke="#79c0ff" stroke-width="1.8"/>
+<text x="380" y="516" text-anchor="middle" fill="#79c0ff" font-size="8">PB9 CAN1_TX to TJA1051 TXD pin1</text>
+<path d="M212 290 L160 290 L160 490 L950 490 L950 220 L1140 220" fill="none" stroke="#e3b341" stroke-width="1.8" stroke-dasharray="5,3"/>
+<text x="570" y="486" text-anchor="middle" fill="#e3b341" font-size="8">BOOT0 p94 to GPIO4  10k pull-down to GND on STM32 side</text>
+<path d="M369 386 L369 500 L945 500 L945 271 L1140 271" fill="none" stroke="#f85149" stroke-width="1.8" stroke-dasharray="5,3"/>
+<rect x="640" y="494" width="26" height="11" rx="2" fill="#1c2128" stroke="#f85149" stroke-width="1.2"/>
+<text x="653" y="503" text-anchor="middle" fill="#f85149" font-size="7">100R</text>
+<text x="700" y="520" text-anchor="middle" fill="#f85149" font-size="8">NRST p14 to GPIO5 via 100 ohm resistor</text>
+<line x1="758" y1="235" x2="790" y2="235" stroke="#f85149" stroke-width="1.5"/>
+<line x1="790" y1="235" x2="790" y2="335" stroke="#f85149" stroke-width="1.5"/>
+<line x1="790" y1="335" x2="758" y2="335" stroke="#555" stroke-width="1.5"/>
+<text x="800" y="289" fill="#f85149" font-size="8">STB to GND always</text>
+<line x1="622" y1="250" x2="600" y2="250" stroke="#ff9900" stroke-width="1.5"/>
+<line x1="600" y1="250" x2="600" y2="560" stroke="#ff9900" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="575" y="556" text-anchor="middle" fill="#ff9900" font-size="8">3.3V</text>
+<line x1="622" y1="230" x2="605" y2="230" stroke="#555" stroke-width="1.5"/>
+<line x1="605" y1="230" x2="605" y2="570" stroke="#555" stroke-width="1.5" stroke-dasharray="3,2"/>
+<text x="590" y="566" text-anchor="middle" fill="#555" font-size="8">GND</text>
+<!-- OBD-II -->
+<rect x="830" y="560" width="150" height="110" fill="#1c2128" stroke="#f85149" stroke-width="2" rx="4"/>
+<text x="905" y="578" text-anchor="middle" fill="#f85149" font-size="10" font-weight="bold">OBD-II J1962</text>
+<text x="905" y="590" text-anchor="middle" fill="#8b949e" font-size="8">Vehicle Connector</text>
+<text x="840" y="610" fill="#888" font-size="8">Pin 4/5 GND</text>
+<text x="840" y="626" fill="#f85149" font-size="9" font-weight="bold">Pin 6  CANH</text>
+<text x="840" y="642" fill="#f85149" font-size="9" font-weight="bold">Pin 14 CANL</text>
+<text x="840" y="658" fill="#ff9900" font-size="8">Pin 16 +12V</text>
+<path d="M758 258 L830 258 L830 626" fill="none" stroke="#f85149" stroke-width="2.5"/>
+<path d="M758 278 L840 278 L840 642" fill="none" stroke="#f85149" stroke-width="2.5"/>
+<!-- Legend -->
+<rect x="30" y="560" width="380" height="200" fill="#161b22" stroke="#30363d" stroke-width="1" rx="6"/>
+<text x="220" y="578" text-anchor="middle" fill="#c9d1d9" font-size="11" font-weight="bold">Legend  STAR = wired</text>
+<line x1="45" y1="595" x2="90" y2="595" stroke="#56d364" stroke-width="2" stroke-dasharray="5,3"/> <text x="95" y="598" fill="#56d364" font-size="9">UART: PA2/PA3 to GPIO16/17</text>
+<line x1="45" y1="612" x2="90" y2="612" stroke="#79c0ff" stroke-width="2"/> <text x="95" y="615" fill="#79c0ff" font-size="9">CAN data: PB8/PB9 to TJA1051</text>
+<line x1="45" y1="629" x2="90" y2="629" stroke="#f85149" stroke-width="2.5"/> <text x="95" y="632" fill="#f85149" font-size="9">CAN bus: TJA1051 CANH/CANL to OBD-II</text>
+<line x1="45" y1="646" x2="90" y2="646" stroke="#e3b341" stroke-width="2" stroke-dasharray="5,3"/> <text x="95" y="649" fill="#e3b341" font-size="9">BOOT0: GPIO4 to STM32 p94</text>
+<line x1="45" y1="663" x2="90" y2="663" stroke="#f85149" stroke-width="2" stroke-dasharray="5,3"/> <text x="95" y="666" fill="#f85149" font-size="9">NRST: GPIO5 to STM32 p14 via 100 ohm</text>
+<line x1="45" y1="680" x2="90" y2="680" stroke="#ff9900" stroke-width="2" stroke-dasharray="3,2"/> <text x="95" y="683" fill="#ff9900" font-size="9">3.3V power</text>
+<line x1="45" y1="697" x2="90" y2="697" stroke="#555" stroke-width="2" stroke-dasharray="3,2"/> <text x="95" y="700" fill="#888" font-size="9">GND common rail</text>
+<line x1="45" y1="714" x2="90" y2="714" stroke="#30363d" stroke-width="1.2"/> <text x="95" y="717" fill="#6e7681" font-size="9">Not connected leave open</text>
+<text x="45" y="745" fill="#8b949e" font-size="8">BOOT1/PB2 tied to GND. No 120 ohm on CAN bus.</text>
+<text x="45" y="757" fill="#e3b341" font-size="8">10k pull-down on BOOT0 to GND for normal boot.</text>
+</svg>
